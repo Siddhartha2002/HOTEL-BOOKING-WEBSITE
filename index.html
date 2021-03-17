@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVELIX</title>
+    <!--Font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="./images/logo.png" alt="" />
+          </a>
+          <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="container">
+          <div class="main-heading">
+            <h1 class="title">Discover</h1>
+            <h2 class="subtitle">Luxury hotels</h2>
+          </div>
+          <a href="#" class="btn btn-gradient"
+            >Explore now
+            <span class="dots"><i class="fas fa-ellipsis-h"></i></span
+          ></a>
+        </div>
+      </div>
+
+      <section class="booking">
+        <div class="container">
+          <form action="" class="form">
+            <div class="input-group">
+              <label for="destination" class="input-label">Destination</label>
+              <input type="text" class="input" id="destination" />
+            </div>
+            <div class="input-group">
+              <label for="check-in" class="input-label">Check in</label>
+              <input type="date" class="input" id="check-in" />
+            </div>
+            <div class="input-group">
+              <label for="check-out" class="input-label">Check out</label>
+              <input type="date" class="input" id="check-out" />
+            </div>
+            <div class="input-group">
+              <label for="adults" class="input-label">Adults</label>
+              <select id="adults" class="options">
+                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="children" class="input-label">Children</label>
+              <select id="children" class="options">
+                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5</option>
+              </select>
+            </div>
+            <button type="submit" class="btn form-btn btn-purple">
+              Search
+              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
